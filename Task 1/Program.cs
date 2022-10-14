@@ -10,9 +10,12 @@ int b = Convert.ToInt32(input2);
 
 if (a > b)
 {
-    Console.WriteLine(a);
+    Console.WriteLine("Max" + " " + a);
+    Console.WriteLine("Min" + " " + b);
 }
+ 
 else if (b > a)
 {
-    Console.WriteLine(b);
+       Console.WriteLine("Max" + " " + b);
+       Console.WriteLine("Min" + " " + a);
 }
